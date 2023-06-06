@@ -49,7 +49,8 @@ def calc_distance(a, b):
 
 
 def find_best_answer(input_sentence):
-    # 파일 경로 지정
+    # 파일 경로 지정(실습할때는 절대경로 기입)
+    # filepath = 'C:\\Users\\kchlm\\Documents\\999_CUK\\AI실무\\14주차\\chatbot-master\\ChatbotData.csv'
     filepath = 'ChatbotData.csv'
 
     data = pd.read_csv(filepath)            # csv파일 읽어 오기
